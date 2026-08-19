@@ -1,0 +1,15 @@
+# Core ML / DL
+tensorflow>=2.15,<3.0      # use tensorflow-cpu if you have no GPU
+numpy>=1.26
+pandas>=2.0
+scikit-learn>=1.3
+
+# Image handling
+Pillow>=10.0
+
+# Visualization
+matplotlib>=3.7
+seaborn>=0.13
+
+# Optional: dataset download via Kaggle API
+kaggle>=1.6
