@@ -13,3 +13,6 @@ seaborn>=0.13
 
 # Optional: dataset download via Kaggle API
 kaggle>=1.6
+
+# Web demo
+streamlit>=1.30

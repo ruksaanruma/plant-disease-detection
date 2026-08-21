@@ -99,6 +99,21 @@ bash scripts/download_data.sh github-full   # ~2 GB, 38 classes
 
 ---
 
+## 🖥️ Interactive demo
+
+A Streamlit app: upload a leaf photo and get the predicted disease plus a
+Grad-CAM overlay showing where the model looked.
+
+```bash
+pip install -r requirements.txt
+python -m src.train        # creates models/plant_disease_model.keras
+streamlit run app.py
+```
+
+To deploy on [Streamlit Community Cloud](https://streamlit.io/cloud), commit a
+trained `models/plant_disease_model.keras` (~24 MB, under GitHub's 100 MB limit)
+so the app can load it — the CNN is too heavy to train on app startup.
+
 ## 🧠 How it works
 
 1. **Data pipeline** — images are gathered per class, split with stratification,
