@@ -1,5 +1,7 @@
 # 🌱 Plant Disease Detection — CNN + Transfer Learning
 
+[![Streamlit](https://img.shields.io/badge/Live_Demo-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://plant-disease-detection-ruksan-ruma.streamlit.app/)
+
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
