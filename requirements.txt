@@ -1,5 +1,5 @@
 # Core ML / DL
-tensorflow>=2.15,<3.0      # use tensorflow-cpu if you have no GPU
+tensorflow-cpu>=2.15,<3.0      # use tensorflow-cpu if you have no GPU
 numpy>=1.26
 pandas>=2.0
 scikit-learn>=1.3
